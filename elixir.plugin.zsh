@@ -1,0 +1,5 @@
+alias m='mix'
+alias mpn='mix phoenix.new'
+alias mps='mix phoenix.server'
+alias mdg='mix deps.get'
+alias mt='mix test'
