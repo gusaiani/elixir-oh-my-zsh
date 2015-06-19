@@ -12,10 +12,15 @@ Enable it by adding _elixir_ to the [_plugins array_](https://github.com/robbyru
 
 ## Aliases
 
-| Alias              | Command             |
-|:-------------------|:--------------------|
-| m                  | mix                 |
-| mt                 | mix test            |
-| mpn                | mix phoenix.new     |
-| mps                | mix phoenix.server  |
-| mdg                | mix deps.get        |
+| Alias               | Command                 |
+|:--------------------|:------------------------|
+| m                   | mix                     |
+| mt                  | mix test                |
+| mpn                 | mix phoenix.new         |
+| mps                 | mix phoenix.server      |
+| mdg                 | mix deps.get            |
+| mpr                 | mix phoenix.routes      |
+| mpgm                | mix phoenix.gen.model   |
+| mpgh                | mix phoenix.gen.html    |
+| mpgj                | mix phoenix.gen.json    |
+| mpgc                | mix phoenix.gen.channel |
