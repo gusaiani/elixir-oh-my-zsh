@@ -15,6 +15,7 @@ Enable it by adding _elixir_ to the [_plugins array_](https://github.com/robbyru
 | Alias               | Command                 |
 |:--------------------|:------------------------|
 | m                   | mix                     |
+| mr                  | mix run                 |
 | mt                  | mix test                |
 | mpn                 | mix phoenix.new         |
 | mps                 | mix phoenix.server      |
