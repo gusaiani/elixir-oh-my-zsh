@@ -14,6 +14,8 @@ Enable it by adding _elixir_ to the [_plugins array_](https://github.com/robbyru
 
 | Alias               | Command                 |
 |:--------------------|:------------------------|
+| i                   | iex                     |
+| ism                 | iex -S mix              |
 | m                   | mix                     |
 | mdc                 | mix deps.compile        |
 | mdg                 | mix deps.get            |

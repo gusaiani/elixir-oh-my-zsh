@@ -1,3 +1,5 @@
+alias i='iex'
+alias ism='iex -S mix'
 alias m='mix'
 alias mdc='mix deps.compile'
 alias mdg='mix deps.get'
