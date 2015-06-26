@@ -17,11 +17,12 @@ Enable it by adding _elixir_ to the [_plugins array_](https://github.com/robbyru
 | i                   | iex                     |
 | ism                 | iex -S mix              |
 | m                   | mix                     |
+| mn                  | mix new                 |
+| mr                  | mix run                 |
+| mt                  | mix test                |
 | mdc                 | mix deps.compile        |
 | mdg                 | mix deps.get            |
 | meb                 | mix escript.build       |
-| mr                  | mix run                 |
-| mt                  | mix test                |
 | mpn                 | mix phoenix.new         |
 | mps                 | mix phoenix.server      |
 | mpr                 | mix phoenix.routes      |
