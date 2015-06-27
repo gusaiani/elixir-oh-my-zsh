@@ -18,6 +18,7 @@ Enable it by adding _elixir_ to the [_plugins array_](https://github.com/robbyru
 | ism                 | iex -S mix              |
 | m                   | mix                     |
 | mn                  | mix new                 |
+| mns                 | mix new --sup           |
 | mr                  | mix run                 |
 | mt                  | mix test                |
 | mdc                 | mix deps.compile        |
