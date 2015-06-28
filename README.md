@@ -22,8 +22,10 @@ Enable it by adding _elixir_ to the [_plugins array_](https://github.com/robbyru
 | mr                  | mix run                 |
 | mt                  | mix test                |
 | mdc                 | mix deps.compile        |
-| mdg                 | mix deps.get            |
 | meb                 | mix escript.build       |
+| mec                 | mix ecto.create         |
+| mem                 | mix ecto.migrate        |
+| mdg                 | mix deps.get            |
 | mpn                 | mix phoenix.new         |
 | mps                 | mix phoenix.server      |
 | mpr                 | mix phoenix.routes      |
