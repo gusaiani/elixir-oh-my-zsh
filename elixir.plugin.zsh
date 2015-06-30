@@ -1,6 +1,7 @@
 alias i='iex'
 alias ism='iex -S mix'
 alias m='mix'
+alias mr='mix compile'
 alias mn='mix new'
 alias mns='mix new --sup'
 alias mr='mix run'
