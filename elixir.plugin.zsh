@@ -19,3 +19,7 @@ alias mpgm='mix phoenix.gen.model'
 alias mpgh='mix phoenix.gen.html'
 alias mpgj='mix phoenix.gen.json'
 alias mpgc='mix phoenix.gen.channel'
+
+# Heroku
+alias hrmec='heroku run mix ecto.create'
+alias hrmem='heroku run mix ecto.migrate'
