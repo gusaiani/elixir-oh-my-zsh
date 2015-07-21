@@ -1,5 +1,6 @@
 alias i='iex'
 alias ism='iex -S mix'
+alias ips='iex -S mix phoenix.server'
 alias m='mix'
 alias mc='mix compile'
 alias mn='mix new'
