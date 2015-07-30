@@ -25,6 +25,7 @@ Enable it by adding _elixir_ to the [_plugins array_](https://github.com/robbyru
 | mrnh                | mix run --no-halt            |
 | mt                  | mix test                     |
 | mdc                 | mix deps.compile             |
+| mdu                 | mix deps.update              |
 | meb                 | mix escript.build            |
 | mec                 | mix ecto.create              |
 | mem                 | mix ecto.migrate             |
