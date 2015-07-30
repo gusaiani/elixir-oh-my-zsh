@@ -26,6 +26,7 @@ Enable it by adding _elixir_ to the [_plugins array_](https://github.com/robbyru
 | mt                  | mix test                     |
 | mdc                 | mix deps.compile             |
 | mdu                 | mix deps.update              |
+| mdua                | mix deps.update --all        |
 | meb                 | mix escript.build            |
 | mec                 | mix ecto.create              |
 | mem                 | mix ecto.migrate             |
