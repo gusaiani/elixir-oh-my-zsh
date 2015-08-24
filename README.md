@@ -25,6 +25,8 @@ Enable it by adding _elixir_ to the [_plugins array_](https://github.com/robbyru
 | mrnh                | mix run --no-halt            |
 | mt                  | mix test                     |
 | mdc                 | mix deps.compile             |
+| mdg                 | mix deps.get                 |
+| mdgc                | mix do deps.get, deps.compile|
 | mdun                | mix deps.unlock              |
 | mduu                | mix deps.unlock --unused     |
 | mdu                 | mix deps.update              |
@@ -32,7 +34,6 @@ Enable it by adding _elixir_ to the [_plugins array_](https://github.com/robbyru
 | meb                 | mix escript.build            |
 | mec                 | mix ecto.create              |
 | mem                 | mix ecto.migrate             |
-| mdg                 | mix deps.get                 |
 | mpn                 | mix phoenix.new              |
 | mps                 | mix phoenix.server           |
 | mpr                 | mix phoenix.routes           |
