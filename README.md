@@ -19,6 +19,7 @@ Enable it by adding _elixir_ to the [_plugins array_](https://github.com/robbyru
 | ips                      | iex -S mix phoenix.server        |
 | m                        | mix                              |
 | mc                       | mix compile                      |
+| mho                      | mix hex.outdated                 |
 | mn                       | mix new                          |
 | mns                      | mix new --sup                    |
 | mr                       | mix run                          |
