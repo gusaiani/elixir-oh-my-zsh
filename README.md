@@ -38,6 +38,7 @@ Enable it by adding _elixir_ to the [_plugins array_](https://github.com/robbyru
 | mpgh                     | mix phoenix.gen.html             |
 | mpgj                     | mix phoenix.gen.json             |
 | mpgm                     | mix phoenix.gen.model            |
+| mpgs                     | mix phoenix.gen.secret           |
 | mpn                      | mix phoenix.new                  |
 | mpr                      | mix phoenix.routes               |
 | mps                      | mix phoenix.server               |
