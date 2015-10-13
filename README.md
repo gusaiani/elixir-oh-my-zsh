@@ -31,6 +31,7 @@ Enable it by adding _elixir_ to the [_plugins array_](https://github.com/robbyru
 | mecm                     | mix do ecto.create, ecto.migrate |
 | mem                      | mix ecto.migrate                 |
 | megm                     | mix ecto.gen.migration           |
+| mer                      | mix ecto.rollback                |
 | mho                      | mix hex.outdated                 |
 | mn                       | mix new                          |
 | mns                      | mix new --sup                    |
