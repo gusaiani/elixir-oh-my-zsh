@@ -29,6 +29,7 @@ Enable it by adding _elixir_ to the [_plugins array_](https://github.com/robbyru
 | meb                      | mix escript.build                |
 | mec                      | mix ecto.create                  |
 | mecm                     | mix do ecto.create, ecto.migrate |
+| med                      | mix ecto.drop                    |
 | mem                      | mix ecto.migrate                 |
 | megm                     | mix ecto.gen.migration           |
 | mer                      | mix ecto.rollback                |
