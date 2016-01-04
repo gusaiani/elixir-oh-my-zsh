@@ -36,3 +36,14 @@ alias mt='mix test'
 # Heroku
 alias hrmec='heroku run mix ecto.create'
 alias hrmem='heroku run mix ecto.migrate'
+
+# Kiex - Elixir Version Manager: https://github.com/taylor/kiex
+alias kd='kiex default'
+alias ki='kiex install'
+alias kl='kiex list'
+alias klb='kiex list branches'
+alias klk='kiex list know'
+alias klr='kiex list releases'
+alias ks='kiex shell'
+alias ksu='kiex selfupdate'
+alias ku='kiex use'
