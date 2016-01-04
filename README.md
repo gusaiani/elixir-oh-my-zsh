@@ -54,7 +54,7 @@ Enable it by adding _elixir_ to the [_plugins array_](https://github.com/robbyru
 | ki                       | kiex install
 | kl                       | kiex list
 | klb                      | kiex list branches
-| klk                      | kiex list know
+| klk                      | kiex list known
 | klr                      | kiex list releases
 | ks                       | kiex shell
 | ksu                      | kiex selfupdate
