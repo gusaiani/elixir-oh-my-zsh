@@ -17,11 +17,13 @@ Enable it by adding _elixir_ to the [_plugins array_](https://github.com/robbyru
 | i                        | iex                              
 | ips                      | iex -S mix phoenix.server        
 | ism                      | iex -S mix                       
-| m                        | mix                              
+| m                        | mix
+| mat                      | mix app.tree
 | mc                       | mix compile                      
 | mdc                      | mix deps.compile                 
 | mdg                      | mix deps.get                     
 | mdgc                     | mix do deps.get, deps.compile    
+| mdt                      | mix deps.tree
 | mdu                      | mix deps.update                  
 | mdua                     | mix deps.update --all            
 | mdun                     | mix deps.unlock                  
