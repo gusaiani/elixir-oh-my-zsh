@@ -33,6 +33,7 @@ alias mpr='mix phoenix.routes'
 alias mps='mix phoenix.server'
 alias mr='mix run'
 alias mrnh='mix run --no-halt'
+alias mrl='mix release'
 alias mt='mix test'
 
 # Heroku
