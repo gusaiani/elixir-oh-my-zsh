@@ -36,7 +36,8 @@ Enable it by adding _elixir_ to the [_plugins array_](https://github.com/robbyru
 | megm                     | mix ecto.gen.migration           
 | merb                     | mix ecto.rollback                
 | mers                     | mix ecto.reset                   
-| mho                      | mix hex.outdated                 
+| mho                      | mix hex.outdated
+| mlh                      | mix local.hex
 | mn                       | mix new                          
 | mns                      | mix new --sup                    
 | mpgc                     | mix phoenix.gen.channel          
