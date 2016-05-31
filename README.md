@@ -20,6 +20,7 @@ Enable it by adding _elixir_ to the [_plugins array_](https://github.com/robbyru
 | m                        | mix
 | mat                      | mix app.tree
 | mc                       | mix compile                      
+| mcx                      | mix compile.xref
 | mdc                      | mix deps.compile                 
 | mdg                      | mix deps.get                     
 | mdgc                     | mix do deps.get, deps.compile    
@@ -54,6 +55,7 @@ Enable it by adding _elixir_ to the [_plugins array_](https://github.com/robbyru
 | mt                       | mix test                         
 | mts                      | mix test --stale
 | mtw                      | mix test.watch
+| mx                       | mix xref
 | hrmec                    | heroku run mix ecto.create       
 | hrmem                    | heroku run mix ecto.migrate      
 | kd                       | kiex default
