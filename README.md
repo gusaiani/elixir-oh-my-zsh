@@ -52,6 +52,7 @@ Enable it by adding _elixir_ to the [_plugins array_](https://github.com/robbyru
 | mrnh                     | mix run --no-halt
 | mrl                      | mix release
 | mt                       | mix test                         
+| mts                      | mix test --stale
 | mtw                      | mix test.watch
 | hrmec                    | heroku run mix ecto.create       
 | hrmem                    | heroku run mix ecto.migrate      

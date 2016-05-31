@@ -36,6 +36,7 @@ alias mr='mix run'
 alias mrnh='mix run --no-halt'
 alias mrl='mix release'
 alias mt='mix test'
+alias mts='mix test --stale'
 alias mtw='mix test.watch'
 
 # Heroku
