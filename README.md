@@ -67,3 +67,9 @@ Enable it by adding _elixir_ to the [_plugins array_](https://github.com/robbyru
 | ks                       | kiex shell
 | ksu                      | kiex selfupdate
 | ku                       | kiex use
+
+## Functions
+
+| Function                 | Command
+| :------------------------| :--------------------------------
+| mncd app-name            | mix new app-name; cd app-name

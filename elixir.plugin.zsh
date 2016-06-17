@@ -55,3 +55,8 @@ alias klr='kiex list releases'
 alias ks='kiex shell'
 alias ksu='kiex selfupdate'
 alias ku='kiex use'
+
+mncd() {
+  arg="$*"
+  mix new "$arg";cd "$arg";
+}
