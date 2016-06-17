@@ -10,6 +10,12 @@ git clone https://github.com/gusaiani/elixir-oh-my-zsh.git elixir
 
 Enable it by adding _elixir_ to the [_plugins array_](https://github.com/robbyrussell/oh-my-zsh/blob/master/templates/zshrc.zsh-template#L48).
 
+## Functions
+
+| Function                 | Command
+| :------------------------| :--------------------------------
+| mncd app-name            | mix new app-name; cd app-name
+
 ## Aliases
 
 | Alias                    | Command                          
@@ -67,9 +73,3 @@ Enable it by adding _elixir_ to the [_plugins array_](https://github.com/robbyru
 | ks                       | kiex shell
 | ksu                      | kiex selfupdate
 | ku                       | kiex use
-
-## Functions
-
-| Function                 | Command
-| :------------------------| :--------------------------------
-| mncd app-name            | mix new app-name; cd app-name
