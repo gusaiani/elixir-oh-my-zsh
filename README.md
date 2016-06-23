@@ -24,6 +24,8 @@ Enable it by adding _elixir_ to the [_plugins array_](https://github.com/robbyru
 | ips                      | iex -S mix phoenix.server        
 | ism                      | iex -S mix                       
 | m                        | mix
+| mab                      | mix archive.build
+| mai                      | mix archive.install
 | mat                      | mix app.tree
 | mc                       | mix compile                      
 | mcx                      | mix compile.xref
