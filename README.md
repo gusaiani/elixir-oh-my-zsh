@@ -28,6 +28,7 @@ Enable it by adding _elixir_ to the [_plugins array_](https://github.com/robbyru
 | mai                      | mix archive.install
 | mat                      | mix app.tree
 | mc                       | mix compile                      
+| mcv                      | mix compile --verbose
 | mcx                      | mix compile.xref
 | mdc                      | mix deps.compile                 
 | mdg                      | mix deps.get                     
