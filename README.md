@@ -11,7 +11,7 @@ git clone https://github.com/gusaiani/elixir-oh-my-zsh.git elixir
 Enable it by adding _elixir_ to the [_plugins array_](https://github.com/robbyrussell/oh-my-zsh/blob/master/templates/zshrc.zsh-template#L54).
 You have to restart your current terminal in order to use the aliases below.
 ```
-# located under $HOME/.zshrc 
+# located under $HOME/.zshrc
 plugins=(git elixir)
 ```
 
@@ -51,6 +51,7 @@ plugins=(git elixir)
 | megm                     | mix ecto.gen.migration           
 | merb                     | mix ecto.rollback                
 | mers                     | mix ecto.reset                   
+| mes                      | mix ecto.setup
 | mho                      | mix hex.outdated
 | mlh                      | mix local.hex
 | mn                       | mix new                          
