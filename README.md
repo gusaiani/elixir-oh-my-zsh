@@ -34,6 +34,8 @@ plugins=(git elixir)
 | mat                      | mix app.tree
 | mc                       | mix compile                      
 | mcv                      | mix compile --verbose
+| mdl                      | mix dialyzer
+| mdlp                     | mix dialyzer --plt
 | mcr                      | mix credo
 | mcrs                     | mix credo --strict
 | mcx                      | mix compile.xref
