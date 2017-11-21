@@ -75,8 +75,9 @@ plugins=(git elixir)
 | mts                      | mix test --stale
 | mtw                      | mix test.watch
 | mx                       | mix xref
-| hrmec                    | heroku run mix ecto.create
-| hrmem                    | heroku run mix ecto.migrate
+| hri                      | heroku run "POOL_SIZE=2 iex -S mix"
+| hrmem                    | heroku run "POOL_SIZE=2 mix ecto.migrate"
+| hrmes                    | heroku run "POOL_SIZE=2 mix run priv/repo/seeds.exs"
 | kd                       | kiex default
 | ki                       | kiex install
 | kl                       | kiex list

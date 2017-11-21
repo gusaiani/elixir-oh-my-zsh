@@ -50,8 +50,9 @@ alias mtw='mix test.watch'
 alias mx='mix xref'
 
 # Heroku
-alias hrmec='heroku run mix ecto.create'
-alias hrmem='heroku run mix ecto.migrate'
+alias hri='heroku run "POOL_SIZE=2 iex -S mix"'
+alias hrmem='heroku run "POOL_SIZE=2 mix ecto.migrate"'
+alias hrmes='heroku run "POOL_SIZE=2 mix run priv/repo/seeds.exs"'
 
 # Kiex - Elixir Version Manager: https://github.com/taylor/kiex
 alias kd='kiex default'
