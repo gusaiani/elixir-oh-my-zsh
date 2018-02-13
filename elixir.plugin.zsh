@@ -49,6 +49,7 @@ alias mt='mix test'
 alias mts='mix test --stale'
 alias mtw='mix test.watch'
 alias mx='mix xref'
+alias mf='mix format'
 
 # Heroku
 alias hri='heroku run "POOL_SIZE=2 iex -S mix"'
