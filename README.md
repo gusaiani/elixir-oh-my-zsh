@@ -57,6 +57,7 @@ plugins=(git elixir)
 | merb                     | mix ecto.rollback
 | mers                     | mix ecto.reset
 | mes                      | mix ecto.setup
+| mf                       | mix format
 | mho                      | mix hex.outdated
 | mlh                      | mix local.hex
 | mn                       | mix new
