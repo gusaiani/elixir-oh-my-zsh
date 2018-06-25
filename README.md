@@ -70,6 +70,7 @@ plugins=(git elixir)
 | mlh                      | mix local.hex
 | mn                       | mix new
 | mns                      | mix new --sup
+| mpd                      | mix phx.digest
 | mpgc                     | mix phx.gen.channel
 | mpgh                     | mix phx.gen.html
 | mpgj                     | mix phx.gen.json
