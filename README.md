@@ -33,6 +33,7 @@ plugins=(git elixir)
 | mai                      | mix archive.install
 | mat                      | mix app.tree
 | mc                       | mix compile
+| mcf                      | mix compile --force
 | mcv                      | mix compile --verbose
 | mcl                      | mix clean
 | mdl                      | mix dialyzer
