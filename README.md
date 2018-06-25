@@ -39,6 +39,7 @@ plugins=(git elixir)
 | mca                      | mix do clean, deps.clean --all
 | mco                      | mix coveralls
 | mcoh                     | mix coveralls.html
+| mdoc                     | mix docs
 | mdl                      | mix dialyzer
 | mdlp                     | mix dialyzer --plt
 | mcr                      | mix credo
