@@ -63,6 +63,9 @@ plugins=(git elixir)
 | mers                     | mix ecto.reset
 | mes                      | mix ecto.setup
 | mf                       | mix format
+| mge                      | mix gettext.extract
+| mgem                     | mix gettext.extract --merge
+| mgm                      | mix gettext.merge priv/gettext
 | mho                      | mix hex.outdated
 | mlh                      | mix local.hex
 | mn                       | mix new
