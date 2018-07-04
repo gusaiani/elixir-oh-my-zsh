@@ -33,8 +33,13 @@ plugins=(git elixir)
 | mai                      | mix archive.install
 | mat                      | mix app.tree
 | mc                       | mix compile
+| mcf                      | mix compile --force
 | mcv                      | mix compile --verbose
 | mcl                      | mix clean
+| mca                      | mix do clean, deps.clean --all
+| mco                      | mix coveralls
+| mcoh                     | mix coveralls.html
+| mdoc                     | mix docs
 | mdl                      | mix dialyzer
 | mdlp                     | mix dialyzer --plt
 | mcr                      | mix credo
@@ -58,10 +63,14 @@ plugins=(git elixir)
 | mers                     | mix ecto.reset
 | mes                      | mix ecto.setup
 | mf                       | mix format
+| mge                      | mix gettext.extract
+| mgem                     | mix gettext.extract --merge
+| mgm                      | mix gettext.merge priv/gettext
 | mho                      | mix hex.outdated
 | mlh                      | mix local.hex
 | mn                       | mix new
 | mns                      | mix new --sup
+| mpd                      | mix phx.digest
 | mpgc                     | mix phx.gen.channel
 | mpgh                     | mix phx.gen.html
 | mpgj                     | mix phx.gen.json
