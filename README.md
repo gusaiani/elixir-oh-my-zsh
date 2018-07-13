@@ -8,7 +8,7 @@ cd ~/.oh-my-zsh/custom/plugins
 git clone https://github.com/gusaiani/elixir-oh-my-zsh.git elixir
 ```
 
-Enable it by adding _elixir_ to the [_plugins array_](https://github.com/robbyrussell/oh-my-zsh/blob/master/templates/zshrc.zsh-template#L54).
+Enable it by adding _elixir_ to the [_plugins array_](https://github.com/robbyrussell/oh-my-zsh/blob/master/templates/zshrc.zsh-template#L64).
 You have to restart your current terminal in order to use the aliases below.
 ```
 # located under $HOME/.zshrc
