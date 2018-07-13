@@ -83,6 +83,8 @@ plugins=(git elixir)
 | mrnh                     | mix run --no-halt
 | mrl                      | mix release
 | mt                       | mix test
+| mtc                      | mix test --cover
+| mtf                      | mix test --failed
 | mts                      | mix test --stale
 | mtw                      | mix test.watch
 | mx                       | mix xref
