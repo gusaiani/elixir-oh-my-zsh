@@ -89,6 +89,8 @@ plugins=(git elixir)
 | mtw                      | mix test.watch
 | mx                       | mix xref
 | hri                      | heroku run "POOL_SIZE=2 iex -S mix"
+| hrip                     | heroku run "POOL_SIZE=2 iex -S mix" -r production
+| hris                     | heroku run "POOL_SIZE=2 iex -S mix" -r staging
 | hrmem                    | heroku run "POOL_SIZE=2 mix ecto.migrate"
 | hrmes                    | heroku run "POOL_SIZE=2 mix run priv/repo/seeds.exs"
 | kd                       | kiex default

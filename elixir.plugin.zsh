@@ -64,6 +64,8 @@ alias mf='mix format'
 
 # Heroku
 alias hri='heroku run "POOL_SIZE=2 iex -S mix"'
+alias hrip='heroku run "POOL_SIZE=2 iex -S mix" -r production'
+alias hris='heroku run "POOL_SIZE=2 iex -S mix" -r staging'
 alias hrmem='heroku run "POOL_SIZE=2 mix ecto.migrate"'
 alias hrmes='heroku run "POOL_SIZE=2 mix run priv/repo/seeds.exs"'
 
