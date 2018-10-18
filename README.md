@@ -72,6 +72,7 @@ plugins=(git elixir)
 | mns                      | mix new --sup
 | mpd                      | mix phx.digest
 | mpgc                     | mix phx.gen.channel
+| mpgco                    | mix phx.gen.context
 | mpgh                     | mix phx.gen.html
 | mpgj                     | mix phx.gen.json
 | mpgm                     | mix phx.gen.model
