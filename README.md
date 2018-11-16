@@ -86,6 +86,7 @@ plugins=(git elixir)
 | mt                       | mix test
 | mtc                      | mix test --cover
 | mtf                      | mix test --failed
+| mtmf                     | mix test --max-failures
 | mts                      | mix test --stale
 | mtw                      | mix test.watch
 | mx                       | mix xref
