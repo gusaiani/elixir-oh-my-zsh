@@ -3,6 +3,13 @@
 Terminal shortcuts for Elixir developers.
 
 ## Install and run
+
+### [Antigen](https://github.com/zsh-users/antigen)
+
+Add `antigen bundle gusaiani/elixir-oh-my-zsh` to your `.zshrc` file. Antigen will handle cloning the plugin for you automatically the next time you start `zsh`. You can also add the plugin to a running ZSH with `antigen bundle gusaiani/elixir-oh-my-zsh` for testing before adding it to your `.zshrc`.
+
+### [Oh-My-Zsh](http://ohmyz.sh/)
+
 ```
 cd ~/.oh-my-zsh/custom/plugins
 git clone https://github.com/gusaiani/elixir-oh-my-zsh.git elixir
@@ -14,6 +21,10 @@ You have to restart your current terminal in order to use the aliases below.
 # located under $HOME/.zshrc
 plugins=(git elixir)
 ```
+
+### [Zgen](https://github.com/tarjoilija/zgen)
+
+Add `zgen load gusaiani/elixir-oh-my-zsh` to your `.zshrc` file in the same function you're doing your other `zgen load` calls in. Zgen will automatically clone the repository for you when you do a `zgen save`, and load it the next time you start a terminal session.
 
 ## Functions
 
