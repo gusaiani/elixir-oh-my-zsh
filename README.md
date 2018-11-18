@@ -1,8 +1,12 @@
-# Oh My Zsh plugin for Elixir, IEx, Mix, Kiex and Phoenix
+# Zsh plugin for Elixir, IEx, Mix, Kiex and Phoenix
 
 Terminal shortcuts for Elixir developers.
 
 ## Install and run
+
+These [shortcuts](https://github.com/gusaiani/elixir-oh-my-zsh/blob/master/elixir.plugin.zsh) have nothing exclusive to Zsh, they are basic shell commands. This means you can always copy the contents and use it with just about any shell setup.
+
+However, if you already use one of the libraries listed below, here's to any easy life:
 
 ### [Antigen](https://github.com/zsh-users/antigen)
 
@@ -15,7 +19,7 @@ cd ~/.oh-my-zsh/custom/plugins
 git clone https://github.com/gusaiani/elixir-oh-my-zsh.git elixir
 ```
 
-Enable it by adding _elixir_ to the [_plugins array_](https://github.com/robbyrussell/oh-my-zsh/blob/master/templates/zshrc.zsh-template#L64).
+Enable it by adding _elixir_ to the [_plugins array_](https://github.com/robbyrussell/oh-my-zsh/blob/master/templates/zshrc.zsh-template#L66).
 You have to restart your current terminal in order to use the aliases below.
 ```
 # located under $HOME/.zshrc
