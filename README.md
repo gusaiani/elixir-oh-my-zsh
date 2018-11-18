@@ -4,7 +4,7 @@ Terminal shortcuts for Elixir developers.
 
 ## Install and run
 
-These [shortcuts](https://github.com/gusaiani/elixir-oh-my-zsh/blob/master/elixir.plugin.zsh) have nothing exclusive to Zsh, they are basic shell commands. This means you can always copy the contents and use it with just about any shell setup.
+These [shortcuts](https://github.com/gusaiani/elixir-oh-my-zsh/blob/master/elixir.plugin.zsh) have nothing exclusive to Zsh, they are basic shell commands. This means you can always copy the contents and use them with just about any shell setup.
 
 However, if you already use one of the libraries listed below, here's to any easy life:
 
