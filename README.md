@@ -103,7 +103,7 @@ Add `zgen load gusaiani/elixir-oh-my-zsh` to your `.zshrc` file in the same func
 | mtf                      | mix test --failed
 | mtmf                     | mix test --max-failures
 | mts                      | mix test --stale
-| mtw                      | mix test.watch
+| mtw                      | mix test.watch (See https://github.com/lpil/mix-test.watch)
 | mx                       | mix xref
 | hri                      | heroku run "POOL_SIZE=2 iex -S mix"
 | hrip                     | heroku run "POOL_SIZE=2 iex -S mix" -r production
