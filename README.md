@@ -98,6 +98,10 @@ Add `zgen load gusaiani/elixir-oh-my-zsh` to your `.zshrc` file in the same func
 | mr                       | mix run
 | mrnh                     | mix run --no-halt
 | mrl                      | mix release
+| msn                      | mix scenic.new
+| msne                     | mix scenic.new.example
+| msnn                     | mix scenic.new.nerves
+| msr                      | mix scenic.run
 | mt                       | mix test
 | mtc                      | mix test --cover
 | mtf                      | mix test --failed
