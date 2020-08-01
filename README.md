@@ -90,6 +90,7 @@ Add `zgen load gusaiani/elixir-oh-my-zsh` to your `.zshrc` file in the same func
 | mpgco                    | mix phx.gen.context
 | mpgh                     | mix phx.gen.html
 | mpgj                     | mix phx.gen.json
+| mpgl                     | mix phx.gen.live
 | mpgm                     | mix phx.gen.model
 | mpgs                     | mix phx.gen.secret
 | mpn                      | mix phx.new
