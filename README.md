@@ -50,6 +50,7 @@ Add `zgen load gusaiani/elixir-oh-my-zsh` to your `.zshrc` file in the same func
 | mc                       | mix compile
 | mcf                      | mix compile --force
 | mcv                      | mix compile --verbose
+| mcw                      | mix compile --warnings-as-errors --force
 | mcl                      | mix clean
 | mca                      | mix do clean, deps.clean --all
 | mco                      | mix coveralls
